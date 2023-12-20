@@ -18,6 +18,7 @@ margin-right: auto;
 
     .header{
         position: relative;
+     
     }
 
     .mobile-navbar-btn{
@@ -46,8 +47,7 @@ margin-right: auto;
        justify-content: center;
        align-items: center;
        transition: all 0.5s linear;
-
-
+      
 
        transform: translateX(100%);
        opacity: 0;
@@ -80,6 +80,10 @@ margin-right: auto;
 
     .hero-banner .container .hero-banner-flex{
         grid-template-columns: 1fr;
+    }
+
+    .hero-banner-flex .hero-banner-content{
+        margin-top: 2rem;
     }
 
 
@@ -145,15 +149,7 @@ margin-right: auto;
     .footer-wrapper .footer-content{
         grid-column: 1/4;
     }
-    .footer-wrapper .footer-list{
-        
-    }
-
-
-
-
-
-
+   
 
 
 }

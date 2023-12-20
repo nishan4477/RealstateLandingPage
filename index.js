@@ -5,7 +5,7 @@ $(window).ready(function() {
     $('.mobile-navbar-btn').click(function() {
         
         $('.header').toggleClass('active');
-        $('body').toggleClass('overflow');
+        $('html').toggleClass('overflow');
 
     });
 
