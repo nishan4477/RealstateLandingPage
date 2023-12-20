@@ -297,6 +297,7 @@ color: #1E1E1E;
     margin-bottom: 3.6rem;
 }
 
+
 /* navbar started */
 .header{
      padding-top: 2rem;
@@ -369,6 +370,8 @@ padding-bottom: 10.2rem;
 
 }
 
+
+
 .hero-banner .container {
     position: relative;
 }
@@ -397,7 +400,9 @@ grid-template-columns: 1.5fr 1fr;
  text-transform:none;
  color: var(--black);
 }
-
+.hero-banner-content h1{
+    animation:updown  2s ease-in  infinite;
+}
  .searchbox{
     padding: 2.5rem 2.5rem;
     max-width: 60%;
@@ -490,6 +495,7 @@ transform: translateY(-50%);
     left: 100%;
     top: 50%;
     transform: translateX(-50%) translateY(-50%);
+   
 
 }
 
@@ -557,7 +563,10 @@ padding-bottom: 10.2rem;
     left: 100% ;
     transform: translateX(-50%) translateY(-50% ) ;
     z-index: -1;
+    
 }  
+
+
 
 .about-image .eclipse-3{
     position: absolute;
@@ -900,3 +909,27 @@ gap: 1rem;
 
 
 /* footer ended */
+
+
+
+
+/* animation started*/
+@keyframes updown {
+    0% {
+      /* Initial styles */
+      transform: translateY(0);
+    }
+    50% {
+      /* Styles midway through the animation */
+      transform: translateY(-1rem);
+    }
+    100% {
+      /* Final styles */
+      transform: translateY(0);
+    }
+  }
+
+
+
+
+/* animation ended */
